@@ -1,15 +1,15 @@
 export default {
   // example colors with dark mode
   colors: {
-    text: '#343D48', // body color and primary color
+    text: '#0E2372', // body color and primary color
     text_secondary: '#02073E', // secondary body color
-    heading: '#0F2137', // primary heading color
+    heading: '#0E2372', // primary heading color
     heading_secondary: '#0F2137', // heading color
     background: '#FFFFFF', // body background color
     background_secondary: '#F9FBFD', // secondary background color
     border_color: '#E5ECF4', // border color
     yellow: '#FFA740', // border color
-    primary: '#EA3A60', // primary button and link color
+    primary: '#0E2372', // primary button and link color
     secondary: '#2563FF', // secondary color - can be used for hover states
     muted: '#E4E4E4', // muted color
     accent: '#609', // a contrast color for emphasizing UI
@@ -21,95 +21,78 @@ export default {
         background: '#000',
         primary: '#0cf',
         secondary: '#09c',
-        muted: '#111',
-      },
-    },
+        muted: '#111'
+      }
+    }
   },
-  breakpoints: [
-    '480px',
-    '640px',
-    '768px',
-    '1024px',
-    '1220px',
-    '1366px',
-    '1620px',
-  ],
+  breakpoints: ['480px', '640px', '768px', '1024px', '1220px', '1366px', '1620px'],
   fonts: {
     body: "'DM Sans', sans-serif",
-    heading: "'DM Sans', sans-serif",
+    heading: "'DM Sans', sans-serif"
   },
   fontSizes: [12, 15, 16, 18, 20, 22, 24, 28, 32, 36, 42, 48, 52, 64],
   fontWeights: {
     body: 'normal',
     heading: 500,
-    bold: 700,
+    bold: 700
   },
   lineHeights: {
     body: 1.8,
-    heading: 1.5,
+    heading: 1.5
   },
   letterSpacings: {
     body: 'normal',
     caps: '0.2em',
-    heading: '-0.5px',
+    heading: '-0.5px'
   },
   space: [0, 5, 10, 15, 20, 25, 30, 50, 80, 100, 120, 150],
   // variants can use custom, user-defined names
   layout: {
     container: {
-      maxWidth: [
-        '100%',
-        null,
-        null,
-        '780px',
-        '1020px',
-        '1200px',
-        null,
-        '1310px',
-      ],
-      px: [4, 6],
+      maxWidth: ['100%', null, null, '780px', '1020px', '1200px', null, '1310px'],
+      px: [4, 6]
     },
     header: {
       color: '#02073E',
       fontWeight: 'normal',
       py: 3,
       position: 'absolute',
-      width: '100%',
+      width: '100%'
     },
     toolbar: {
       display: 'flex',
       alignItems: 'center',
-      justifyContent: 'space-between',
+      justifyContent: 'space-between'
     },
-    main: {},
+    main: {}
   },
   section: {
     keyFeature: {
       pt: [8, null, 9, null, null, 10],
-      pb: ['90px', null, 9, null, null, 10, null, '165px'],
+      pb: ['90px', null, 9, null, null, 10, null, '165px']
     },
     feature: {
-      pb: [8, null, 9, null, null, 10, null, '170px'],
+      pb: [8, null, 9, null, null, 10, null, '170px']
     },
     news: {
-      pb: [8, null, 9, null, null, 10, null, '170px'],
+      pb: [8, null, 9, null, null, 10, null, '170px']
     },
     coreFeature: {
       pb: [8, null, 9, null, null, 10, null, '170px'],
-      overflow: 'hidden',
+      overflow: 'hidden'
     },
     testimonial: {
       pt: [8, null, 8, '70px', null, 8, null, '145px'],
       pb: ['90px', null, 9, null, null, 10, null, '190px'],
-      overflow: 'hidden',
+      overflow: 'hidden'
     },
     services: {
-      pb: ['90px', null, 9, null, null, 10, null, '150px'],
+      pb: ['90px', null, 9, null, null, 10, null, '150px']
     },
     pricing: {
       pt: [8, null, 9, null, null, 10, null, '180px'],
-      pb: ['90px', null, 9, null, null, 10, null, '180px'],
-    },
+      pb: ['90px', null, 9, null, null, 10, null, '180px']
+    }
   },
   sectionHeader: {
     width: ['100%', null, '540px'],
@@ -125,7 +108,7 @@ export default {
       lineHeight: [1.3, null, null, 1.25],
       textAlign: 'center',
       fontWeight: '700',
-      letterSpacing: '-.5px',
+      letterSpacing: '-.5px'
     },
 
     subTitle: {
@@ -136,8 +119,8 @@ export default {
       textTransform: 'uppercase',
       fontWeight: '700',
       mb: 2,
-      lineHeight: 1.5,
-    },
+      lineHeight: 1.5
+    }
   },
   text: {
     heading: {
@@ -146,23 +129,14 @@ export default {
       fontWeight: 'heading',
       fontSize: [4],
       letterSpacing: '-.55px',
-      color: 'heading',
+      color: 'heading'
     },
     heroPrimary: {
       color: 'heading',
-      fontSize: [
-        '32px',
-        '36px',
-        '42px',
-        '40px',
-        '42px',
-        '52px',
-        '58px',
-        '66px',
-      ],
+      fontSize: ['32px', '36px', '42px', '40px', '42px', '52px', '58px', '66px'],
       lineHeight: [1.3, null, null, null, null, 1.2],
       fontWeight: 700,
-      mb: [4, null, null, null, null, 5],
+      mb: [4, null, null, null, null, 5]
     },
     heroSecondary: {
       fontSize: [2, null, '17px', null, null, '19px', 4],
@@ -170,7 +144,7 @@ export default {
       fontWeight: 'body',
       mb: 5,
       px: [0, null, 5, 6, null, 8, 9],
-      color: 'heading',
+      color: 'heading'
     },
     title: {
       // extends the text.heading styles
@@ -178,7 +152,7 @@ export default {
       fontWeight: 'bold',
       fontSize: [3, null, 4],
       lineHeight: 1.25,
-      mb: 1,
+      mb: 1
     },
     lead: {
       fontSize: 40,
@@ -186,29 +160,29 @@ export default {
       fontWeight: '500',
       lineHeight: '60px',
       letterSpacing: '-1.5px',
-      color: '#0F2137',
+      color: '#0F2137'
     },
     muted: {
       lineHeight: '26px',
-      color: 'muted',
+      color: 'muted'
     },
     secondary: {
       fontWeight: 500,
       color: '#00A99D',
-      lineHeight: '40px',
-    },
+      lineHeight: '40px'
+    }
   },
   links: {
     default: {
-      cursor: 'pointer',
+      cursor: 'pointer'
     },
     bold: {
-      fontWeight: 'bold',
+      fontWeight: 'bold'
     },
     nav: {
       display: ['none', null, 'inline-block'],
       px: 25,
-      fontWeight: 'normal',
+      fontWeight: 'normal'
     },
     blog: {
       display: 'block',
@@ -218,30 +192,30 @@ export default {
       fontSize: 'inherit',
       transition: 'color 0.25s',
       '&:hover': {
-        color: 'primary',
-      },
+        color: 'primary'
+      }
     },
     footer: {
       display: 'block',
       px: 0,
       color: 'inherit',
-      textDecoration: 'none',
+      textDecoration: 'none'
     },
     logo: {
-      display: 'flex',
-    },
+      display: 'flex'
+    }
   },
   images: {
     avatar: {
       width: 48,
       height: 48,
-      borderRadius: 99999,
-    },
+      borderRadius: 99999
+    }
   },
   // variants for buttons
   buttons: {
     menu: {
-      display: [null, null, 'none'],
+      display: [null, null, 'none']
     }, // default variant for MenuButton
     // you can reference other values defined in the theme
     defaultBtn: {
@@ -255,24 +229,24 @@ export default {
       transition: 'all 0.25s',
       fontWeight: 500,
       '&:focus': {
-        outline: 0,
-      },
+        outline: 0
+      }
     },
     primary: {
       variant: 'buttons.defaultBtn',
       color: 'white',
       bg: 'primary',
       '&:hover': {
-        boxShadow: 'rgba(233, 76, 84, 0.57) 0px 9px 20px -5px',
-      },
+        boxShadow: 'rgba(28, 95, 84, 0.57) 0px 9px 20px -5px'
+      }
     },
     whiteButton: {
       variant: 'buttons.defaultBtn',
       color: 'heading_secondary',
       bg: 'white',
       '&:hover': {
-        boxShadow: 'rgba(0, 0, 0, 0.5) 0px 12px 24px -10px',
-      },
+        boxShadow: 'rgba(0, 0, 0, 0.5) 0px 12px 24px -10px'
+      }
     },
     secondary: {
       variant: 'buttons.defaultBtn',
@@ -283,8 +257,8 @@ export default {
       padding: ['10px 15px', null, '15px 30px'],
       '&:hover': {
         color: 'white',
-        bg: 'primary',
-      },
+        bg: 'primary'
+      }
     },
     textButton: {
       variant: 'buttons.defaultBtn',
@@ -293,14 +267,14 @@ export default {
       color: 'white',
       svg: {
         fontSize: [4, 6],
-        mr: 2,
-      },
-    },
+        mr: 2
+      }
+    }
   },
   cards: {
     primary: {
       padding: 2,
-      borderRadius: 4,
+      borderRadius: 4
     },
     offer: {
       display: 'flex',
@@ -312,19 +286,19 @@ export default {
       m: 2,
       background: '#FFFFFF',
       border: '1px solid #EDEFF6',
-      borderRadius: 5,
+      borderRadius: 5
     },
     featureCard: {
       display: 'flex',
       alignItems: 'flex-start',
       flexDirection: 'row',
-      p: 3,
-    },
+      p: 3
+    }
   },
   forms: {
     label: {
       fontSize: 1,
-      fontWeight: 'bold',
+      fontWeight: 'bold'
     },
     input: {
       borderRadius: 8,
@@ -332,10 +306,10 @@ export default {
       height: 60,
       '&:focus': {
         borderColor: 'primary',
-        boxShadow: (t) => `0 0 0 2px ${t.colors.primary}`,
-        outline: 'none',
-      },
-    },
+        boxShadow: t => `0 0 0 2px ${t.colors.primary}`,
+        outline: 'none'
+      }
+    }
   },
 
   badges: {
@@ -345,13 +319,13 @@ export default {
       borderRadius: 30,
       p: '3px 11px',
       fontSize: 1,
-      letterSpacing: '-0.5px',
+      letterSpacing: '-0.5px'
     },
     outline: {
       color: 'primary',
       bg: 'transparent',
-      boxShadow: 'inset 0 0 0 1px',
-    },
+      boxShadow: 'inset 0 0 0 1px'
+    }
   },
 
   styles: {
@@ -363,22 +337,22 @@ export default {
       fontSmoothing: 'antialiased',
       // Modal Global Style
       '.modal-video-close-btn': {
-        cursor: 'pointer',
+        cursor: 'pointer'
       },
       '.modal-video-movie-wrap': {
         margin: 6,
-        width: 'auto',
-      },
+        width: 'auto'
+      }
     },
     // Divider styles
     hr: {
       border: 0,
       borderBottom: '1px solid',
-      borderColor: '#D9E0E7',
+      borderColor: '#D9E0E7'
     },
     // also you can use other HTML elements style here
     ul: {
-      listStyle: 'none',
+      listStyle: 'none'
     },
     srOnly: {
       border: '0 !important',
@@ -390,7 +364,7 @@ export default {
       padding: '0 !important',
       position: 'absolute !important',
       width: '1px !important',
-      whiteSpace: 'nowrap !important',
-    },
-  },
+      whiteSpace: 'nowrap !important'
+    }
+  }
 };

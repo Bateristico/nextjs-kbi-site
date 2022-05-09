@@ -1,18 +1,22 @@
 export default [
   {
-    path: 'home',
-    label: 'Home',
+    path: 'inicio',
+    label: 'Inicio'
   },
   {
-    path: 'feature',
-    label: 'Features',
+    path: 'quienes-somos',
+    label: 'Quienes Somos'
   },
   {
-    path: 'pricing',
-    label: 'Pricing',
+    path: 'servicios',
+    label: 'Servicios'
   },
   {
-    path: 'testimonial',
-    label: 'Testimonial',
+    path: 'proyectos',
+    label: 'Proyectos'
   },
+  {
+    path: 'clientes',
+    label: 'Clientes'
+  }
 ];
