@@ -3,7 +3,7 @@ import { jsx, Container, Flex, Button } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import { Link } from 'react-scroll';
 import Logo from 'components/logo';
-import LogoDark from 'assets/logo.svg';
+import LogoDark from '../../assets/logo_kbi.png';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
 
@@ -28,6 +28,7 @@ export default function Header({ className }) {
           ))}
         </Flex>
         <Button className="contact__btn">Contactenos</Button>
+        <MobileDrawer />
       </Container>
     </header>
   );
@@ -93,7 +94,7 @@ const styles = {
       lineHeight: '1.2',
       transition: 'all 0.15s',
       '&:hover': {
-        color: 'primary'
+        color: 'secondary'
       },
       '&.active': {
         color: 'primary'
