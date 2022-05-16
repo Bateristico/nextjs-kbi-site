@@ -12,36 +12,40 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: 'Fast Performance',
-    title: 'Fast Performance',
-    text: 'Get your blood tests delivered at home collect a sample from the your blood tests.'
+    altText: 'Genexus',
+    title: 'Herramienta de desarrollo',
+    text:
+      'GeneXus es la primera herramienta inteligente para crear, desarrollar y mantener, en forma automática aplicaciones multiplataforma de misión crítica, que fácilmente se adaptan a los cambios del negocio y a las nuevas posibilidades brindadas por la evolución tecnológica.'
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: 'Partnership deal',
-    title: 'Partnership deal',
-    text: 'Get your blood tests delivered at home collect a sample from the your blood tests.'
+    altText: 'GXplorer & GXQuery',
+    title: 'Business Inteligence',
+    text:
+      'GXplorer es la suite de Business Intelligence para realizar sus procesos de toma de decisiones en forma eficaz y económica. GXplorer le permite construir y mantener Data Warehouses dinámicas basadas en la información empresarial ya registrada, evitando el uso de herramientas costosas y largos tiempos de implementación.'
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: 'Pro Subscription',
-    title: 'Pro Subscription',
-    text: 'Get your blood tests delivered at home collect a sample from the your blood tests.'
+    altText: 'GXFlow',
+    title: 'Business Process Management & Workflow',
+    text:
+      'GXFlow es una solución para modelar, automatizar, administrar y optimizar sus procesos negocio en forma integral, que permite integrar aplicaciones de misión crítica y procesos de negocios de una manera sencilla, efectiva y eficiente, separando el siempre cambiante aspecto del proceso, del resto de la aplicación.'
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: 'Customer Support',
-    title: 'Customer Support',
-    text: 'Get your blood tests delivered at home collect a sample from the your blood tests.'
+    altText: 'GXPortal',
+    title: 'CMS',
+    text:
+      'GXportal es una herramienta full web que se ajusta a los requerimientos de sitios de todos los tamaños y ofrece una plataforma única para las necesidades de visibilidad, gestión de contenidos así como intranets corporativas.'
   }
 ];
 
 export default function KeyFeature() {
   return (
-    <section sx={{ variant: 'section.keyFeature' }} id="feature">
+    <section sx={{ variant: 'section.keyFeature' }} id="servicios">
       <Container>
         <SectionHeader slogan="nuestra ventaja" title="Casa de software a medida" />
         <Grid sx={styles.grid}>

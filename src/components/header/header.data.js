@@ -4,12 +4,12 @@ export default [
     label: 'Inicio'
   },
   {
-    path: 'quienes-somos',
-    label: 'Quienes Somos'
-  },
-  {
     path: 'servicios',
     label: 'Servicios'
+  },
+  {
+    path: 'quienes-somos',
+    label: 'Quienes Somos'
   },
   {
     path: 'proyectos',
