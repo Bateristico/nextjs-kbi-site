@@ -1,13 +1,14 @@
 /** @jsx jsx */
 import { jsx, Image, Box, Heading, Text } from 'theme-ui';
 
-export default function FeatureCardColumn({ src, altText = 'default alt text', title, text }) {
+export default function FeatureCardColumn({ imgSrc, altText = 'default alt text', title, text }) {
+  console.log('src', title);
   return (
     <Box sx={styles.card}>
-      <Image src={src} alt={altText} sx={styles.img} />
+      <Image src={imgSrc} alt={altText} sx={styles.img} />
       <Box sx={styles.wrapper}>
         <Heading sx={styles.wrapper.title}>{title}</Heading>
-        <Text sx={styles.wrapper.subTitle}>{TextTrackList}</Text>
+        <Text sx={styles.wrapper.subTitle}>{text}</Text>
       </Box>
     </Box>
   );
