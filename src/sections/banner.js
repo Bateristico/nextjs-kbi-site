@@ -11,7 +11,7 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            El mejor partner para alcanzar tus metas
+            Desarrollo de Software a tu medida
           </Heading>
           <Text as="p" variant="heroSecondary">
             Confía en nuestra experiencia y consigue tus objetivos
