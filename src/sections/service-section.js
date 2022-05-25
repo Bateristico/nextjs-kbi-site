@@ -42,7 +42,7 @@ export default function ServiceSection() {
     setVideoOpen(true);
   };
   return (
-    <section sx={{ variant: 'section.services' }}>
+    <section sx={{ variant: 'section.services' }} id="quienes-somos">
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
           <Image src={ServiceThumb} alt="Thumbnail" />
