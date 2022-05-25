@@ -12,34 +12,33 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: 'Fast Performance',
-    title: 'Fast Performance',
+    altText: 'Gestión de la Cadena de Abastecimiento',
+    title: 'Gestión de la Cadena de Abastecimiento',
     text:
-      'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.'
+      'La plataforma de soluciones KBI permite a las empresas optimizar operaciones grandes y complejas.'
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: 'Pro Subscription',
-    title: 'Pro Subscription',
+    altText: 'Gestión de Procesos Productivos de Fruta Fresca',
+    title: 'Gestión de Procesos Productivos de Fruta Frescan',
     text:
-      'We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.'
+      'Herramienta tecnológica que proporciona los canales de información necesarios para la eficiencia en el flujo de datos inherente a los proceso que van desde estimaciones de cosecha hasta el embarque.'
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: 'Partnership deal',
-    title: 'Partnership deal',
-    text:
-      'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.'
+    altText: 'Call Center',
+    title: 'Call Center',
+    text: 'Esta plataforma, porvee una herramienta para gestionar cartera de clientes.'
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: 'Customer Support',
-    title: 'Customer Support',
+    altText: 'Estimación de Cosechas',
+    title: 'Estimación de Cosechas',
     text:
-      'We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.'
+      'Herramienta de apoyo para la gestión de los campos, permitiendo tomar deciciones a tiempo.'
   }
 ];
 

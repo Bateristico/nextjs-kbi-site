@@ -19,18 +19,18 @@ const data = {
     {
       id: 1,
       imgSrc: Smart,
-      altText: 'Smart Features',
-      title: 'Smart Features',
+      altText: 'Misión',
+      title: 'Misión',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.'
+        'Brindar a todos nuestros clientes, productos y servicios informáticos integrales que respondan de manera específica a sus necesidades, impregnados de un compromiso con la eficiencia, transparencia y calidad. Además de complementar nuestros servicios con un compromiso social aplicando buenas prácticas laborales y abriendo nuestro conocimiento a la comunidad.'
     },
     {
       id: 2,
       imgSrc: Secure,
-      altText: 'Secure Contents',
-      title: 'Secure Contents',
+      altText: 'Visión',
+      title: 'Visión',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.'
+        'Ser reconocidos como líderes en la distribución, gestión y servicios de productos informáticos integrales, con un firme compromiso de aportar excelencia, cercanía, fidelidad y confianza en la relación con nuestros clientes, ampliando nuestro aporte a la difusión y capacitación de las más avanzadas tecnologías, asegurando a nuestros empleados las mejores oportunidades para crecer personal y profesionalmente.'
     }
   ]
 };
