@@ -2,7 +2,6 @@
 import { jsx, Image, Box, Heading, Text } from 'theme-ui';
 
 export default function FeatureCard({ src, altText = 'default alt text', title, text }) {
-  console.log(title, text);
   return (
     <Box sx={styles.card}>
       <Image src={src} alt={altText} sx={styles.img} />
