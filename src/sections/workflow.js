@@ -36,7 +36,7 @@ export default function WorkFlow() {
       <Container>
         <SectionHeader
           slogan="BIENVENIDOS A KBI"
-          title="Somos un grupo dedicado a brindar servicios de desarrollo, soporte y distribución de productos informáticos de alto impacto, recogiendo las tendencias tecnológicas más avanzadas y adaptándolas a las particularidades del negocio de nuestros clientes."
+          title="Somos un grupo dedicado a brindar servicios de desarrollo..."
           isWhite={true}
         />
         <Grid sx={styles.grid}>
