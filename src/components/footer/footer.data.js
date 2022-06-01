@@ -2,23 +2,23 @@ export default {
   menuItem: [
     {
       path: '/',
-      label: 'Home',
+      label: 'Home'
     },
     {
       path: '/',
-      label: 'Adversite',
+      label: 'Redes'
     },
     {
       path: '/',
-      label: 'Supports',
+      label: 'Soporte'
     },
     {
       path: '/',
-      label: 'Marketing',
+      label: 'Marketing'
     },
     {
       path: '/',
-      label: 'Contact',
-    },
-  ],
+      label: 'Contacto'
+    }
+  ]
 };
