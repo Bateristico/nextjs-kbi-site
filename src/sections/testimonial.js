@@ -83,7 +83,7 @@ const carouselParams = {
   centerMode: false,
   className: '',
   containerClass: 'carousel-container',
-  customButtonGroup: <ButtonGroup />,
+  // customButtonGroup: <ButtonGroup />,
   dotListClass: '',
   draggable: true,
   focusOnSelect: false,
