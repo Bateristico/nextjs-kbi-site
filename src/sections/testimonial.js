@@ -101,7 +101,7 @@ const carouselParams = {
 
 export default function TestimonialCard() {
   return (
-    <section id="testimonial" sx={{ variant: 'section.testimonial' }}>
+    <section id="clientes" sx={{ variant: 'section.testimonial' }}>
       <Container css={{ textAlign: 'center' }}>
         <SectionHeader slogan="Testimonial" title="lo que nuestros clientes dicen" />
         <Box sx={styles.carouselWrapper}>
